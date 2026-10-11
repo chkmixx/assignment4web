@@ -35,4 +35,4 @@ Created a registration form with name, email, password, gender, hobbies and coun
 ## Summary
 During this assignment, I practised creating HTML forms, using HTML5 validation and styling forms with Bootstrap.
 
-During this assignment, I practised creating HTML forms, using HTML5 validation and styling forms with Bootstrap.
+
