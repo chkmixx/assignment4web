@@ -100,7 +100,82 @@
         </div>
     </div>
 </div>
+<h2>Task 4 - Registration Form</h2>
 
+<div class="container mt-4 mb-5">
+    <div class="row">
+        <div class="col-md-8">
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName" class="form-label">First Name:</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" required>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName" class="form-label">Last Name:</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="regEmail" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="regEmail" name="email" required>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="password" class="form-label">Password:</label>
+                        <input type="password" class="form-control" id="password" name="password" minlength="8" required>
+                        <div class="form-text">Password must contain at least 8 characters.</div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label for="confirmPassword" class="form-label">Confirm Password:</label>
+                        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" minlength="8" required>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Gender:</label><br>
+
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Hobbies:</label><br>
+
+                    <input type="checkbox" id="reading" name="hobbies" value="reading">
+                    <label for="reading">Reading</label>
+
+                    <input type="checkbox" id="sports" name="hobbies" value="sports">
+                    <label for="sports">Sports</label>
+
+                    <input type="checkbox" id="music" name="hobbies" value="music">
+                    <label for="music">Music</label>
+                </div>
+
+                <div class="mb-3">
+                    <label for="country" class="form-label">Country:</label>
+                    <select class="form-select" id="country" name="country" required>
+                        <option value="">Choose your country</option>
+                        <option value="kazakhstan">Kazakhstan</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">Korea</option>
+                        <option value="canada">Japan</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Register</button>
+                <button type="reset" class="btn btn-secondary">Reset</button>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>
 
