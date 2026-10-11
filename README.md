@@ -1,8 +1,6 @@
 # assignment4web
-# Assignment 4 - Forms and Validation
-
-**Name:** Tomiris Chekalin  
-**Group:** IT-2503
+name:Tomiris Chekalin  
+group: IT-2503
 
 # Task 0:
 
