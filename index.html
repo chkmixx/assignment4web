@@ -71,7 +71,36 @@
         </div>
     </div>
 </div>
+<h2>Task 3 - Bootstrap Validation Styles</h2>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8">
+            <form>
+                <div class="mb-3">
+                    <label for="name4" class="form-label">Name:</label>
+                    <input type="text" class="form-control is-valid" id="name4" value="Tomiris" required>
+                    <div class="valid-feedback">Looks good!</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email4" class="form-label">Email:</label>
+                    <input type="email" class="form-control is-invalid" id="email4" value="wrong-email" required>
+                    <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="message4" class="form-label">Message:</label>
+                    <textarea class="form-control is-invalid" id="message4" required></textarea>
+                    <div class="invalid-feedback">Message is required.</div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
-```
+
