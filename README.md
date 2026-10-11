@@ -35,6 +35,8 @@ Added validation styles and feedback messages for valid and invalid inputs.
 
 Created a registration form with name, email, password, gender, hobbies and country fields.
 <img width="1601" height="870" alt="image" src="https://github.com/user-attachments/assets/784a09ea-7568-4c38-8fa5-ccd280939d59" />
+<img width="1402" height="852" alt="image" src="https://github.com/user-attachments/assets/6ad82871-1b35-4aaf-823c-795fa4bd6670" />
+
 
 
 ## Summary
