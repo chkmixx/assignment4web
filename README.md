@@ -13,7 +13,8 @@ Created a contact form with name, email, message and submit button.
 # Task 1:
 
 Added HTML5 validation attributes such as required, type and maxlength.
-<img width="1292" height="515" alt="image" src="https://github.com/user-attachments/assets/d1b62998-b887-4c39-8cd0-72887f00a142" />
+<img width="1348" height="527" alt="image" src="https://github.com/user-attachments/assets/79be1bd8-4bae-4935-a985-8201a1a93c7d" />
+
 
 
 
