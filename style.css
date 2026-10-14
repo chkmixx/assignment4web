@@ -1,30 +1,39 @@
 body {
-    background-color: #f4f6f9;
+    background-color: #f8f1f3;
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #44313a;
     margin: 0;
-    padding: 25px;
+    padding: 30px;
 }
 
 h1 {
+    background-color: #702c43;
+    color: #fff8fa;
     text-align: center;
-    margin-bottom: 35px;
-    color: #243447;
+    padding: 35px 20px;
+    margin: -30px -30px 40px;
+    font-size: 34px;
+    letter-spacing: 0.5px;
 }
 
 h2 {
-    font-size: 24px;
-    margin-top: 35px;
-    margin-bottom: 20px;
-    color: #243447;
+    color: #702c43;
+    font-size: 23px;
+    margin: 35px 0 20px;
 }
 
 form {
-    background-color: white;
-    padding: 25px;
-    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 26px;
+    border: 1px solid #ead5dd;
+    border-radius: 12px;
     margin-bottom: 30px;
-    max-width: 700px;
+    max-width: 850px;
+    box-shadow: 0 4px 14px rgba(112, 44, 67, 0.06);
+}
+
+label {
+    color: #513743;
 }
 
 input,
@@ -33,12 +42,46 @@ select {
     max-width: 100%;
 }
 
-button {
-    margin-top: 5px;
+.form-control,
+.form-select {
+    border: 1px solid #dec6d0;
+    border-radius: 7px;
+    padding: 10px;
 }
 
-.container {
-    padding-left: 0;
+.form-control:focus,
+.form-select:focus {
+    border-color: #a85b78;
+    box-shadow: 0 0 0 3px rgba(168, 91, 120, 0.13);
+}
+
+.btn-primary {
+    background-color: #843750;
+    border-color: #843750;
+    padding: 9px 20px;
+    border-radius: 7px;
+}
+
+.btn-primary:hover {
+    background-color: #67263e;
+    border-color: #67263e;
+}
+
+.btn-secondary {
+    background-color: #f0e2e8;
+    border-color: #e5cbd6;
+    color: #702c43;
+    padding: 9px 20px;
+}
+
+.btn-secondary:hover {
+    background-color: #e7d0da;
+    border-color: #d9b8c6;
+    color: #702c43;
+}
+
+.form-text {
+    color: #90717f;
 }
 
 @media (max-width: 768px) {
@@ -47,11 +90,13 @@ button {
     }
 
     h1 {
-        font-size: 28px;
+        margin: -15px -15px 25px;
+        padding: 28px 15px;
+        font-size: 27px;
     }
 
     h2 {
-        font-size: 21px;
+        font-size: 20px;
     }
 
     form {
