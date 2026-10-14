@@ -6,7 +6,8 @@ group: IT-2503
 
 Created a contact form with name, email, message and submit button.
 <img width="1897" height="632" alt="image" src="https://github.com/user-attachments/assets/fffdf779-08ac-4874-8253-68736e09c766" />
-<img width="1205" height="532" alt="image" src="https://github.com/user-attachments/assets/80c1f073-7504-4e3d-9ba1-b9badf0ab40f" />
+<img width="1188" height="555" alt="image" src="https://github.com/user-attachments/assets/f3a11dac-33e0-4fbe-a1a4-2de56587bb46" />
+
 
 
 
