@@ -31,7 +31,8 @@ Styled the contact form using Bootstrap classes and the grid system.
 # Task 3:
 
 Added validation styles and feedback messages for valid and invalid inputs.
-<img width="1632" height="710" alt="image" src="https://github.com/user-attachments/assets/7e417733-0cf8-46e9-ba2b-733019030419" />
+<img width="1857" height="751" alt="image" src="https://github.com/user-attachments/assets/499adce9-e735-484e-8477-0321bc4a95c2" />
+
 
 
 # Task 4:
@@ -39,7 +40,8 @@ Added validation styles and feedback messages for valid and invalid inputs.
 Created a registration form with name, email, password, gender, hobbies and country fields.
 <img width="1408" height="848" alt="image" src="https://github.com/user-attachments/assets/ffb28b45-ef2a-4824-b7ed-0d3cd0cd29f2" />
 
-<img width="1402" height="852" alt="image" src="https://github.com/user-attachments/assets/6ad82871-1b35-4aaf-823c-795fa4bd6670" />
+<img width="1403" height="896" alt="image" src="https://github.com/user-attachments/assets/b13ba66a-c58f-43c1-a493-09bd7c193077" />
+
 
 
 
