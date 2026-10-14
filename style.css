@@ -1,7 +1,7 @@
 body {
     background-color: #f8f1f3;
     font-family: Arial, sans-serif;
-    color: #44313a;
+    color: #513743;
     margin: 0;
     padding: 30px;
 }
@@ -10,26 +10,30 @@ h1 {
     background-color: #702c43;
     color: #fff8fa;
     text-align: center;
-    padding: 35px 20px;
-    margin: -30px -30px 40px;
-    font-size: 34px;
+    padding: 38px 20px;
+    margin: -30px -30px 45px;
+    font-size: 36px;
+    font-weight: 600;
     letter-spacing: 0.5px;
+    border-bottom: 5px solid #d9a6b8;
 }
 
 h2 {
     color: #702c43;
     font-size: 23px;
     margin: 35px 0 20px;
+    padding-left: 12px;
+    border-left: 4px solid #c9829d;
 }
 
 form {
     background-color: #ffffff;
-    padding: 26px;
+    padding: 28px;
     border: 1px solid #ead5dd;
     border-radius: 12px;
     margin-bottom: 30px;
     max-width: 850px;
-    box-shadow: 0 4px 14px rgba(112, 44, 67, 0.06);
+    box-shadow: 0 5px 18px rgba(112, 44, 67, 0.07);
 }
 
 label {
@@ -40,6 +44,12 @@ input,
 textarea,
 select {
     max-width: 100%;
+}
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="reset"]),
+textarea,
+select {
+    accent-color: #843750;
 }
 
 .form-control,
@@ -55,25 +65,32 @@ select {
     box-shadow: 0 0 0 3px rgba(168, 91, 120, 0.13);
 }
 
+button[type="submit"],
 .btn-primary {
     background-color: #843750;
     border-color: #843750;
+    color: white;
     padding: 9px 20px;
     border-radius: 7px;
+    transition: background-color 0.2s;
 }
 
+button[type="submit"]:hover,
 .btn-primary:hover {
     background-color: #67263e;
     border-color: #67263e;
 }
 
+button[type="reset"],
 .btn-secondary {
     background-color: #f0e2e8;
     border-color: #e5cbd6;
     color: #702c43;
     padding: 9px 20px;
+    border-radius: 7px;
 }
 
+button[type="reset"]:hover,
 .btn-secondary:hover {
     background-color: #e7d0da;
     border-color: #d9b8c6;
@@ -84,15 +101,23 @@ select {
     color: #90717f;
 }
 
+.valid-feedback {
+    color: #198754;
+}
+
+.invalid-feedback {
+    color: #dc3545;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 15px;
     }
 
     h1 {
-        margin: -15px -15px 25px;
+        margin: -15px -15px 30px;
         padding: 28px 15px;
-        font-size: 27px;
+        font-size: 28px;
     }
 
     h2 {
