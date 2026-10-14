@@ -23,7 +23,8 @@ Added HTML5 validation attributes such as required, type and maxlength.
 # Task 2:
 
 Styled the contact form using Bootstrap classes and the grid system.
-<img width="1347" height="647" alt="image" src="https://github.com/user-attachments/assets/cb205182-699e-4007-80a6-b701d10582ab" />
+<img width="1627" height="730" alt="image" src="https://github.com/user-attachments/assets/b8ac49d0-423e-47d4-9d01-053bcff995c1" />
+
 
 
 
