@@ -5,7 +5,7 @@ group: IT-2503
 # Task 0:
 
 Created a contact form with name, email, message and submit button.
-<img width="1897" height="632" alt="image" src="https://github.com/user-attachments/assets/fffdf779-08ac-4874-8253-68736e09c766" />
+
 <img width="1188" height="555" alt="image" src="https://github.com/user-attachments/assets/f3a11dac-33e0-4fbe-a1a4-2de56587bb46" />
 
 
@@ -14,7 +14,8 @@ Created a contact form with name, email, message and submit button.
 # Task 1:
 
 Added HTML5 validation attributes such as required, type and maxlength.
-<img width="1348" height="527" alt="image" src="https://github.com/user-attachments/assets/79be1bd8-4bae-4935-a985-8201a1a93c7d" />
+<img width="1237" height="572" alt="image" src="https://github.com/user-attachments/assets/8e229c11-9e3d-4e2c-b472-329f305db16f" />
+
 
 
 
